@@ -1,0 +1,14 @@
+{
+    "apps": [
+      {
+        "name": "passwordgenerator",
+        "script": "npm",
+        "args": "run start",
+        "watch": true,
+        "ignore_watch": ["node_modules"],
+        "env": {
+          "NODE_ENV": "development"
+        }
+      }
+    ]
+  }
