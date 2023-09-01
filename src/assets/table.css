@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .MuiJoyTable-root tbody tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .MuiJoyTable-root tbody td {
+        display: block;
+        text-align: left;
+    }
+}
