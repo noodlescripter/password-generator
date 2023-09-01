@@ -33,7 +33,7 @@ To get started with the Password Generator app, follow these installation steps:
 1. **Clone the Repository:** Begin by cloning this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/Password-Generator.git
+   git clone https://github.com/noodlescripter/password-generator.git
    ```
 
 2. **Navigate to the Project Directory:** Change your working directory to the root of the cloned repository:
