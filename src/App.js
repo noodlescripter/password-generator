@@ -7,7 +7,7 @@ const navigate = useNavigate();
   
 useEffect(() => {
   function redirect(url){
-      if(sessionStorage.getItem('currentUser') && window.location.pathname === '/pwdgenerator/'){
+      if(sessionStorage.getItem('currentUser') && window.location.pathname === '/'){
         navigate(url)
       }
   }
