@@ -14,7 +14,7 @@ require('dotenv').config();
 const https = require('https');
 const fs = require('fs');
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8999;
 
 let user;
 

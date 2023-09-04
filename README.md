@@ -13,8 +13,7 @@ Welcome to the Password Generator app! This repository contains a password gener
     - [Starting the Backend API](#starting-the-backend-api)
     - [Starting the Frontend](#starting-the-frontend)
   - [Environment Variables](#environment-variables)
-    - [API Environment Variables](#api-environment-variables)
-    - [Root Directory Environment Variables](#root-directory-environment-variables)
+    - [Root Directory Environment Variables \& API Environment Variables](#root-directory-environment-variables--api-environment-variables)
   - [Generating Passwords](#generating-passwords)
   - [Stopping the Servers](#stopping-the-servers)
     - [Stopping the Database](#stopping-the-database)
@@ -114,22 +113,10 @@ To start the frontend development server, follow these steps:
 
 The Password Generator app relies on environment variables to manage its configuration settings. You'll need to create `.env` files in both the `backend/api` and root directories to provide the necessary configuration values.
 
-### API Environment Variables
 
-1. **Create `.env` File:** In the `backend/api` directory, create a `.env` file.
+### Root Directory Environment Variables & API Environment Variables
 
-2. **Set Environment Variables:** Inside the `.env` file, provide values for the required environment variables:
-
-   ```plaintext
-   PORT=8999
-   DATABASE_URL=your_database_connection_string
-   ```
-
-   Replace `your_database_connection_string` with the actual URL or connection string for your database.
-
-### Root Directory Environment Variables
-
-1. **Create `.env` File:** In the root directory of the project, create another `.env` file.
+1. **Create `.env` File:** In the root directory of the project, create another `.env` file in `backend/api`
 
 2. **Set Environment Variables:** Inside the `.env` file, provide values for any additional environment variables that your application might require.
 
@@ -206,7 +193,6 @@ To stop the backend API and frontend servers, follow these steps:
 With these steps, you will have successfully stopped all the servers associated with the Password Generator app.
 
 ---
-
 
 ## Contributing
 
